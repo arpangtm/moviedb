@@ -7,7 +7,7 @@ const Routing=()=>{
     return(
         <Router>
             <Route exact path="/" component={App}></Route>
-            <Route path="/movie/:name" component={Moviedetail}></Route>
+            <Route path="/movie/:id" component={Moviedetail}></Route>
         </Router>
     )
 }
