@@ -23,7 +23,7 @@ export default class SearchBar extends Component{
                         value={this.state.item}
                         class="prompt "
                         type="text" 
-                        placeholder="Common passwords..."
+                        placeholder="Search Your Movie.."
                         onChange={this.inputChanged}
                         />
                         <i class="search icon"></i>

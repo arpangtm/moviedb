@@ -1,4 +1,16 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom'
 import App from './component/app'
-ReactDOM.render(<App/>,document.getElementById('root'))
+import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
+import Moviedetail from './component/moviedetail'
+const Routing=()=>{
+    return(
+        <Router>
+            <Route exact path="/" component={App}></Route>
+            <Route path="/movie/:name" component={Moviedetail}></Route>
+        </Router>
+    )
+}
+
+
+ReactDOM.render(<Routing/>,document.getElementById('root'))
