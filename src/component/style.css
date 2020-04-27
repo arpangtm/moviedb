@@ -54,6 +54,13 @@ body{
     border-color: none;
     border-radius: 5px;
     cursor: pointer;
+    position:absolute;
+    top:80%;
+    left:35%
+}
+
+#inside button:hover{
+    background-color:#ffa53d
 }
 
 #searchdiv span{
