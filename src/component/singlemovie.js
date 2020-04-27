@@ -20,7 +20,6 @@ export default class Single extends Component{
         }
 
         return(
-<<<<<<< HEAD
             <Link to={link}>
                 <figure class="imghvr-flip-diag-1" id="container">
                     <img id="img" src={src} />
@@ -35,23 +34,6 @@ export default class Single extends Component{
                     </div>
                 </figure>
             </Link>
-=======
-            <figure class="imghvr-flip-diag-1" id="container" onClick={this.seeclicked}>
-                <img id="img" src={src}/>
-                <figcaption id="inside">
-                    <h4>Title:  {this.props.movie.original_title}</h4>
-                    <h4>Release Date: {this.props.movie.release_date}</h4>
-                    <h4>Overview:</h4> 
-                    <p>{str}</p>
-                    <Link to={this.state.forlink}>
-                        <button >See More</button>
-                    </Link>
-                </figcaption>
-                <div id="detail">
-                    <h3><center> {title}</center></h3> 
-                </div>
-            </figure>
->>>>>>> e0fd909be79e5b0d6f560d790909419abf655b7e
 
         )
     }
