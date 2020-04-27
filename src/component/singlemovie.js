@@ -30,7 +30,7 @@ export default class Single extends Component{
 
        
         return(
-            <figure class="imghvr-flip-diag-1" id="container">
+            <figure class="imghvr-flip-diag-1" id="container" onClick={this.seeclicked}>
                 <img id="img" src={src}/>
                 <figcaption id="inside">
                     <h4>Title:  {this.props.movie.original_title}</h4>
@@ -38,7 +38,7 @@ export default class Single extends Component{
                     <h4>Overview:</h4> 
                     <p>{str}</p>
                     <Link to={this.state.forlink}>
-                        <button onClick={this.seeclicked}>See More</button>
+                        <button >See More</button>
                     </Link>
                 </figcaption>
                 <div id="detail">

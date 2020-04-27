@@ -14,7 +14,7 @@ export default class Moviedetail extends Component{
                     <center>
                     <h1>Title:{movied.original_title}</h1> 
                     <h3>IMDB Rating:{movied.vote_average}</h3> 
-                    <h3>Overview:</h3><h4>{movied.overview}</h4>
+                    <span><h3>Overview:</h3></span><span><h4>{movied.overview}</h4></span>
                     <h3>Release:{movied.release_date}</h3>
                     
                     </center>
